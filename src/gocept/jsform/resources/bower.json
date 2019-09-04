@@ -1,1 +1,33 @@
-../jsform_source/bower.json
+{
+  "name": "gocept.jsform",
+  "version": "3.0.1",
+  "main": [
+    "src/helpers.js",
+    "src/localizations/en.js",
+    "src/localizations/de.js",
+    "src/templates.js",
+    "src/template.js",
+    "src/collection.js",
+    "src/jsform.js"
+  ],
+  "dependencies": {
+    "knockout": "3.3.0",
+    "bower-knockout-mapping": "2.5.0",
+    "classy": "https://github.com/gocept/classy.git",
+    "handlebars": "4.0.5",
+    "bootstrap": "~3.3",
+    "jquery": "*",
+    "jquery-ui": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gocept/gocept.jsform.git"
+  },
+  "authors": [
+    {"name": "Sebastian Wehrmann", "email": "sw@gocept.com"},
+    {"name": "Florian Pilz", "email": "fp@gocept.com"},
+    {"name": "Thomas Lotze", "email": "tl@gocept.com"},
+    {"name": "Maik Derstappen", "email": "md@derico.de"}
+  ],
+  "homepage": "http://goceptjsform.readthedocs.org/"
+}
