@@ -3,7 +3,7 @@ gocept.jsform fanstatic integration
 ===================================
 
 **This is the last release for gocept.jsform. Future updates will be released
-under its new name ajja.**
+under its new name ajja, see https://pypi.org/project/ajja/**
 
 
 Usage

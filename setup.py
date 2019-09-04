@@ -69,6 +69,7 @@ setup(
 
     keywords='form javascript jquery client',
     classifiers="""\
+Development Status :: 7 - Inactive
 License :: OSI Approved :: MIT License
 Programming Language :: Python
 Programming Language :: Python :: 2
