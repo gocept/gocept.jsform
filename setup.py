@@ -20,7 +20,7 @@ def read(path):
 
 
 def project_path(*names):
-    return os.path.join(os.path.dirname(__file__), *names)
+    return os.path.join(*names)
 
 
 version = json.loads(read(project_path(
