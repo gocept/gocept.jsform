@@ -25,6 +25,10 @@ helpers = fanstatic.Resource(
     library, 'helpers.js', minified='helpers.min.js',
     depends=[js.jquery.jquery, ko_mapping])
 
+template = fanstatic.Resource(
+    library, 'template.js', minified='template.min.js',
+    depends=[helpers])
+
 templates = fanstatic.Resource(
     library, 'templates.js', minified='templates.min.js')
 
@@ -37,6 +41,7 @@ localization_en = fanstatic.Resource(
 jsform = fanstatic.Resource(
     library, 'jsform.js', minified='jsform.min.js',
     depends=[
+        template,
         helpers,
         js.classy.classy,
         handlebars,

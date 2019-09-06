@@ -2,11 +2,18 @@
 Changelog
 =========
 
+3.0.4 (unreleased)
+==================
+
+- Add missing `template.js`.
+
+
 3.0.3 (2019-09-06)
 ==================
 
 - Fix missing resource entry point for additional JavaScript files introduced
   in 3.0.0.
+
 
 3.0.2 (2019-09-04)
 ==================
