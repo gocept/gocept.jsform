@@ -57,6 +57,7 @@ setup(
         ],
         'fanstatic.libraries': [
             'gocept.jsform = gocept.jsform.resource:library',
+            'gocept.jsform.additional = gocept.jsform.resource:additionals',
         ],
     },
 

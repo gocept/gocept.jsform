@@ -12,7 +12,7 @@ else:
     HAS_CONTAINER_DEPENDENCIES = True
 
 library = fanstatic.Library('gocept.jsform', 'resources')
-additionals = fanstatic.Library('gocept.jsform', 'additional')
+additionals = fanstatic.Library('gocept.jsform.additional', 'additional')
 
 handlebars = fanstatic.Resource(additionals, 'handlebars-v4.0.2.js')
 
