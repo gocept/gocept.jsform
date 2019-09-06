@@ -1,4 +1,6 @@
 include *.py
+include *.rst
+include *.txt
 include .coveragerc
 include Makefile
 include buildout.cfg
