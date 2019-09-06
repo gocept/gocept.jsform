@@ -5,6 +5,8 @@ Changelog
 3.0.4 (unreleased)
 ==================
 
+- Fix loading order of JS libraries.
+
 - Add missing `template.js`.
 
 

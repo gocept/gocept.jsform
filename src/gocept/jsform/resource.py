@@ -32,13 +32,7 @@ template = fanstatic.Resource(
 templates = fanstatic.Resource(
     library, 'templates.js', minified='templates.min.js')
 
-localization_de = fanstatic.Resource(
-    library, 'localizations/de.js', minified='localizations/de.min.js')
-
-localization_en = fanstatic.Resource(
-    library, 'localizations/en.js', minified='localizations/en.min.js')
-
-jsform = fanstatic.Resource(
+jsform_js = fanstatic.Resource(
     library, 'jsform.js', minified='jsform.min.js',
     depends=[
         template,
@@ -46,10 +40,22 @@ jsform = fanstatic.Resource(
         js.classy.classy,
         handlebars,
         js.jquery.jquery,
-        localization_de,
-        localization_en,
         templates,
     ])
+
+localization_de = fanstatic.Resource(
+    library, 'localizations/de.js', minified='localizations/de.min.js',
+    depends=[jsform_js])
+
+localization_en = fanstatic.Resource(
+    library, 'localizations/en.js', minified='localizations/en.min.js',
+    depends=[jsform_js])
+
+jsform = fanstatic.Group([
+    jsform_js,
+    localization_de,
+    localization_en,
+])
 
 if HAS_CONTAINER_DEPENDENCIES is True:
 
