@@ -2,7 +2,7 @@
 Changelog
 =========
 
-3.0.3 (unreleased)
+3.0.3 (2019-09-06)
 ==================
 
 - Fix missing resource entry point for additional JavaScript files introduced
