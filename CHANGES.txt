@@ -2,6 +2,12 @@
 Change log for gocept.jsform
 ============================
 
+2.0.x ()
+==================
+
+- Make installable on setuptools >= 30.
+
+
 2.0.0 (2015-03-26)
 ==================
 
