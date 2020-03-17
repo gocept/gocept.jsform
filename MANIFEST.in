@@ -1,0 +1,12 @@
+include *.py
+include *.txt
+include .coveragerc
+include Makefile
+include buildout.cfg
+recursive-include doc *.py
+recursive-include doc *.txt
+recursive-include src *.js
+recursive-include src *.json
+recursive-include src *.md
+recursive-include src *.pt
+recursive-include versions *.cfg

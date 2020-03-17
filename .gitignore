@@ -1,10 +1,8 @@
-syntax: glob
-
 *.egg-info
 *.pyc
 .installed.cfg
 .mr.developer.cfg
-bin
+bin/
 build
 develop-eggs
 dist
@@ -19,3 +17,4 @@ parts
 selenimum-note.txt
 .Python
 tags
+parts/
